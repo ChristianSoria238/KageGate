@@ -1,0 +1,20 @@
+.detail{position:relative;align-items:start;gap:clamp(26px,5vw,64px);max-width:1060px;margin:50px auto 80px}
+.detail-image,.detail>.poster-art{position:sticky;top:24px;width:100%;height:auto;max-height:620px;aspect-ratio:3/4;object-fit:cover;border:1px solid #474052;border-radius:18px;box-shadow:0 24px 60px #0007}
+.detail>div{min-width:0;padding:10px 0}
+.detail>div>h1{margin:10px 0 15px;font-size:clamp(36px,5vw,58px);line-height:1.04;letter-spacing:-1.6px}
+.detail>div>p{color:#c4bfcb;line-height:1.75}
+.detail-meta{margin:16px 0}
+.detail-video{overflow:hidden;border:1px solid #393342;border-radius:15px}
+.detail>div>h2{margin-top:32px;font-size:24px}
+.detail-actions{display:grid;justify-items:start;gap:13px;margin-top:27px;padding-top:21px;border-top:1px solid #37313f}
+.detail-actions form{margin:0}
+.watchlist-button{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:48px;padding:0 21px;border:0;border-radius:10px;background:linear-gradient(110deg,#f65bb0,#9869ff);box-shadow:0 10px 27px #d14caa33;color:#fff;font-size:14px;font-weight:800;transition:filter .18s,transform .18s}
+.watchlist-button:hover{filter:brightness(1.1);transform:translateY(-2px);color:#fff}
+.watchlist-button.is-saved{border:1px solid #43a987;background:#142b29;box-shadow:none;color:#a6f1d8}
+.watchlist-message{margin:0!important;padding:9px 12px;border:1px solid #67464f;border-radius:8px;background:#2c1c25;color:#ffd2dc!important;font-size:12px}
+.watchlist-message.saved{border-color:#2d6e5c;background:#152b27;color:#a6f1d8!important}
+.detail-back{display:inline-flex;align-items:center;gap:8px;padding:9px 0;color:#c5b8d7;font-size:13px;font-weight:700}
+.detail-back span{display:grid;width:27px;height:27px;place-items:center;border:1px solid #453b52;border-radius:50%;background:#1b1724;transition:transform .18s,border-color .18s}
+.detail-back:hover{color:#fff}
+.detail-back:hover span{transform:translateX(-3px);border-color:#d66db7}
+@media(max-width:700px){.detail{grid-template-columns:1fr;gap:18px;margin:25px auto 50px}.detail-image,.detail>.poster-art{position:relative;top:auto;width:min(100%,310px);max-height:400px;margin:0 auto}.detail>div{padding:0 2px}.detail>div>h1{font-size:38px}.detail-video{margin:20px 0}.detail-actions{width:100%}.watchlist-button{width:100%}}

@@ -1,0 +1,10 @@
+{
+  "require": {
+    "lbuchs/webauthn": "^2.2",
+    "phpmailer/phpmailer": "^6.10"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}

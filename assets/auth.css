@@ -1,0 +1,6 @@
+.google-button{display:flex;align-items:center;justify-content:center;gap:12px;width:100%;background:#fff;color:#202124;border:1px solid #dadce0;font-weight:650}
+.google-button:hover:not(:disabled){background:#f8faff;color:#202124}
+.google-button:disabled{opacity:.62;cursor:not-allowed}
+.google-mark{font-size:1.25rem;font-weight:800;color:#4285f4}
+.auth-hint{margin:8px 0 14px;color:var(--muted);font-size:.84rem}
+.resend-code{margin-top:12px}
